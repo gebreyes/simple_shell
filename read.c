@@ -42,7 +42,6 @@ char *buff = malloc(buffsize);
 		}
 	}
 	buff[i] = '\0';
-	hashtag_handle(buff);
 	return (buff);
 }
 
