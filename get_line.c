@@ -1,5 +1,5 @@
 
-#include "main.h"
+#include "shell.h"
 
 /**
 * _getline - Read The Input By User From Stdin
@@ -42,6 +42,7 @@ char *buff = malloc(buffsize);
 		}
 	}
 	buff[i] = '\0';
+	hashtag_handle(buff);
 	return (buff);
 }
 

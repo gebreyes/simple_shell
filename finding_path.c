@@ -1,4 +1,4 @@
-#include "main.h"
+#include "shell.h"
 
 /**
  * path_cmd -  Search In $PATH For Excutable Command
