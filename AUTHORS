@@ -1,5 +1,2 @@
-# This file lists all individuals having contributed content to the repository.
-# For how it is generated, see `hack/generate-authors.sh`.
-
-Gebreyes Gebeyehu <gebreyesis56@gmail.com>
-Henock Demessie <Twinnerhencok@gmail.com>
+#!/bin/bash
+git shortlog -e -s -n
